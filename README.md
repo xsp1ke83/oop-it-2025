@@ -1,3 +1,1 @@
-Hello world! It is reposytory of it-21
-
-br,it-21
+### Hello world! It is repository of IT-21 and IT-22

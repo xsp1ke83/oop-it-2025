@@ -15,7 +15,7 @@
 Написав базову [програму](./1-test.py) і запустив її виконаття в терміналі. Встановив систему [Git](https://git-scm.com/) і за допомогою команд (git, status, pwd, ls, mkdir, git diff --staged, git commit -m 'message' etc.), зберіг дану програму в системі контроля версії. І підключив результати лаболаторної роботи підключив у хмарних репозиторії [GitHub](https://github.com/xsp1ke83/oop-it-2025/tree/master/nick-bobeshko)
 
 ## Висновки: 
-В ході роботи я навчився працювати із системою Git (git, status, pwd, ls, mkdir, git diff --staged, git commit -m 'message'). Створювати репозиторій на GitHub та загружати в нього зміни.
+В ході роботи, я навчився працювати із системою Git (git, status, pwd, ls, mkdir, git diff --staged, git commit -m 'message'). Створювати репозиторій на GitHub та загружати в нього зміни.
 Налаштовувати VS Code для роботи з Python. 
 Оформляти .md документи.
 
