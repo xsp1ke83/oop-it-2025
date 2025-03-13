@@ -10,7 +10,7 @@ class NumberHolder:
     
     def get_prod(self):
        return self.a * self.b
-       
+      
 
 # var = NumberHolder(7)
 var = NumberHolder(1, 6)
