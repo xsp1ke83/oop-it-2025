@@ -21,3 +21,26 @@ print(var.__dict__)
 
 print( var.get_sum())
 print( var.get_prod())
+
+
+# 
+class MyClass:
+    variable = "blah"
+
+    def __init__(self13):
+        self13.number = 15
+
+
+    def my_function(afsd):
+        print("The Funcitons was called.")
+        
+
+
+my_object_x = MyClass()
+
+prop = my_object_x.variable
+
+print(prop)
+
+my_object_x.my_function()
+

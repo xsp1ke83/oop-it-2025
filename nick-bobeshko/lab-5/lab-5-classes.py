@@ -1,22 +1,3 @@
-class MyClass:
-    variable = "blah"
-
-    def __init__(self13):
-        self13.number = 15
-
-
-    def MyFunction(afsd):
-        print("The Funcitons was called.")
-        
-
-
-my_object_x = MyClass()
-
-prop = my_object_x.variable
-
-print(prop)
-
-my_object_x.MyFunction()
 
 
 ###################################################
