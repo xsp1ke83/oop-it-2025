@@ -1,1 +1,0 @@
-### Hello world! It is repository of IT-21 and IT-22
