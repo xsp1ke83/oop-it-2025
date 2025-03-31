@@ -1,9 +1,17 @@
 class Character:
+    counter_characters = 0
+    
     def __init__(self, name, damage, armor, health = 100):
         self.name = name
         self.health = health
         self.damage = damage
         self.armor = armor
+        
+        Character.counter_characters += 1
+
+    # @staticmethod
+    def method1():
+        print(f"Counter: {Character.counter_characters} ")        
         
 
     # def attack(self):
@@ -35,8 +43,12 @@ class Character:
     
 
 char_1 = Character("char1", 120, 40)
+Character.method1()
+char_2 = Character("char2", 111, 40)
 
-char_1.Attack()
+# char_1.Attack()
 
 
 print(char_1.name)
+
+print(Character.counter_characters)
