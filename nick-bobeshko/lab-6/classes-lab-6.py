@@ -9,16 +9,10 @@ class Character:
         
         Character.counter_characters += 1
 
-    # @staticmethod
-    def method1():
-        print(f"Counter: {Character.counter_characters} ")        
-        
-
-    # def attack(self):
-    #     print("Do attack..")
-
-
-    # def Hit()
+    def print_information(self):
+        print(f"Name: {self.name}. Health: {self.health} Armor: {self.armor}.  Damage: {self.damage}. ")
+    
+    
     def heal(self, amount_of_health):  # can't by more healt than 100.
         
         if (amount_of_health < 0 ):
@@ -34,21 +28,25 @@ class Character:
         if (damage < 0):
             raise Exception("Error healt value")
 
-        self.heal = (self.armor + self.heal) - damage
+        self.health = (self.armor + self.health) - damage
 
-        if(self.heal <= 0):
-            self.heal = 0
+        if(self.health <= 0):
+            self.health = 0
             print("The character was killed.")
 
     
 
 char_1 = Character("char1", 120, 40)
-Character.method1()
+
 char_2 = Character("char2", 111, 40)
 
-# char_1.Attack()
+char_1.print_information()
 
+char_1.get_hit(44)
+print(char_1.health)
+char_1.heal(20)
 
-print(char_1.name)
+print(f" Кількість створених екземплярів: {Character.counter_characters}")
 
-print(Character.counter_characters)
+char_1.print_information()
+char_2.print_information()
