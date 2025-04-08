@@ -10,12 +10,18 @@ class BankModel:
         BankModel.number_of_accounts += 1
         self.id = BankModel.number_of_accounts
 
+    @classmethod
+    def from_string(cls, bank_str):
+        name, last, email, initial_sum_of_money = bank_str.split(',')
+        return cls(name, last, email, initial_sum_of_money)
+    
+
     def print_full_information(self):
         print(f"[{self.id}] Full name: {self.first} {self.last}. Email: {self.email}. Sum of money: {self.money}\n")
     
     @classmethod
     def set_payment_amount(cls, payment_amount):
-        BankModel.payment_amount = payment_amount
+        cls.payment_amount = payment_amount
 
     def apply_payment(self):
         self.money += BankModel.payment_amount
@@ -40,3 +46,11 @@ account2.print_full_information()
 print( BankModel.convert_usd_to_uah(20) )
 
 print(account1.convert_usd_to_uah(19))
+
+
+print(account1.payment_amount)
+
+account3 = BankModel.from_string("Ryan,Brooks,ryan.brooks123@proton.me,0")
+
+account3.print_full_information()
+
