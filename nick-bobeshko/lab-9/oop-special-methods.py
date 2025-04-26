@@ -50,6 +50,11 @@ class BusinessBankAccountModel(BankModel):
     def from_string(cls, data_str):     # first, last, email, initial_sum_of_money, business_name
         first, last, email, initial_sum_of_money, business_name = data_str.split(',')
         return cls(first, last, email, initial_sum_of_money, business_name)
+        
+    def get_full_information(self):
+        
+        info = super().get_full_information()        
+        return f"\nBusiness account info:\n\t {info}"
 
 class PremiumBankAccountModel(BankModel):
     payment_amount = 1500
