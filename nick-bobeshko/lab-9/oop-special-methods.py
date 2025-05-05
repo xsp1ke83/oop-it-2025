@@ -33,21 +33,16 @@ class BankModel:
     def apply_payment(self):
         self.money += self.payment_amount
 
-    @staticmethod
-    def convert_usd_to_uah(usd): # usd to uah
-        return usd * 41.48
-
 
 class BusinessBankAccountModel(BankModel):
     payment_amount = 2000
-    # business_points = 0
 
     def __init__(self, first, last, email, initial_sum_of_money, business_name):
         super().__init__(first, last, email, initial_sum_of_money)
         self.business_name = business_name        
 
     @classmethod
-    def from_string(cls, data_str):     # first, last, email, initial_sum_of_money, business_name
+    def from_string(cls, data_str): 
         first, last, email, initial_sum_of_money, business_name = data_str.split(',')
         return cls(first, last, email, initial_sum_of_money, business_name)
         
@@ -72,8 +67,7 @@ class PremiumBankAccountModel(BankModel):
     def get_full_information(self):
         info = super().get_full_information()
         
-        return f"\nPremium account info:\n\t {info}\tPremium type: {self.premium_type}"
-        # return "\nPremium account info:\n" + info + f"\n Premium type: {}"
+        return f"\nPremium account info:\n\t {info}\tPremium type: {self.premium_type}"        
 
     def show_premium_points(self):        
         print(f"{self.first} {self.last} має {self.premium_points} бонусних балів.")        
