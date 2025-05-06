@@ -5,9 +5,13 @@ class Character:
         self.name = name
         self.health = health
         self.damage = damage
-        self.armor = armor
-        
+        self.armor = armor        
         Character.counter_characters += 1
+
+    def __del__(self):
+        Character.counter_characters -= 1
+        print('Destructor called, Character deleted.')
+
 
     def print_information(self):
         print(f"Name: {self.name}. Health: {self.health} Armor: {self.armor}.  Damage: {self.damage}. ")
@@ -50,3 +54,9 @@ print(f" Кількість створених екземплярів: {Characte
 
 char_1.print_information()
 char_2.print_information()
+
+print(Character.counter_characters)
+del char_1
+
+print(Character.counter_characters)
+
