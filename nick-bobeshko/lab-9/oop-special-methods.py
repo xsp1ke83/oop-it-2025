@@ -26,13 +26,6 @@ class BankModel:
         return (f"[{self.id}] Full name: {self.first} {self.last}. Email: {self.email}. Sum of money: {self.money}")
     
 
-    @classmethod
-    def set_payment_amount(cls, payment_amount):
-        cls.payment_amount = payment_amount
-
-    def apply_payment(self):
-        self.money += self.payment_amount
-
 
 class BusinessBankAccountModel(BankModel):
     payment_amount = 2000
@@ -69,17 +62,6 @@ class PremiumBankAccountModel(BankModel):
         
         return f"\nPremium account info:\n\t {info}\tPremium type: {self.premium_type}"        
 
-    def show_premium_points(self):        
-        print(f"{self.first} {self.last} має {self.premium_points} бонусних балів.")        
-
-    def add_premium_points(self, amount):
-        if (amount <= 0):
-            print("Помилка! Кількість бонусів не може бути менше нуля!")
-            return
-        self.premium_points += amount        
-
-    def remove_points(self, amount):
-        self.premium_points -= amount
 
 
 prem_account1 = PremiumBankAccountModel("Derek", "Campbell", "Derek.Campbell@mail.com", 20000, "Max+")

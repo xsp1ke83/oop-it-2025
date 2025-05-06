@@ -17,7 +17,7 @@
 3. Створив екземпляри класу: створив декілька об’єктів *Character*, викликав для них метод *print_information()*.
 4. Реалізував методи *heal(self, amount_of_health)*, який збільшує здоров’я персонажа, та *get_hit(self, damage)*, який враховує броню при отриманні шкоди.
 
-```
+```python
 class Character:
     counter_characters = 0
     
