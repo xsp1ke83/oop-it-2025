@@ -73,7 +73,6 @@ class Teacher(Human):
         return f"Викладач: {self.full_name}, {self.age} років, {self.university}, предмет: {self.subject}"
 
 
-# === Тестування ===
 print("=== Тестування властивостей ===")
 student = Student("Арсен", "Дерпак", 20, "ЛНУП", "ІТ")
 teacher = Teacher("Ірина", "Петренко", 45, "Політехніка", "Література")
@@ -81,7 +80,6 @@ teacher = Teacher("Ірина", "Петренко", 45, "Політехніка"
 student.introduce()
 teacher.introduce()
 
-# Перевірка @property setter
 student.age = 20
 teacher.full_name = "Олена Коваль"
 
@@ -89,13 +87,11 @@ print()
 print(student)
 print(teacher)
 
-# Перевірка винятку при неправильному віці
 try:
     student.age = -5
 except ValueError as e:
     print("Помилка при встановленні віку:", e)
 
-# Перевірка винятку при неправильному імені
 try:
     teacher.full_name = "Олена"
 except ValueError as e:
