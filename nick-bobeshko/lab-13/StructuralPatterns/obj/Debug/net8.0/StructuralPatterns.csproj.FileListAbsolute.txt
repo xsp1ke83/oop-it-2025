@@ -1,0 +1,15 @@
+/home/user/Coding/oop-it-2025/nick-bobeshko/lab-13/StructuralPatterns/bin/Debug/net8.0/StructuralPatterns
+/home/user/Coding/oop-it-2025/nick-bobeshko/lab-13/StructuralPatterns/bin/Debug/net8.0/StructuralPatterns.deps.json
+/home/user/Coding/oop-it-2025/nick-bobeshko/lab-13/StructuralPatterns/bin/Debug/net8.0/StructuralPatterns.runtimeconfig.json
+/home/user/Coding/oop-it-2025/nick-bobeshko/lab-13/StructuralPatterns/bin/Debug/net8.0/StructuralPatterns.dll
+/home/user/Coding/oop-it-2025/nick-bobeshko/lab-13/StructuralPatterns/bin/Debug/net8.0/StructuralPatterns.pdb
+/home/user/Coding/oop-it-2025/nick-bobeshko/lab-13/StructuralPatterns/obj/Debug/net8.0/StructuralPatterns.GeneratedMSBuildEditorConfig.editorconfig
+/home/user/Coding/oop-it-2025/nick-bobeshko/lab-13/StructuralPatterns/obj/Debug/net8.0/StructuralPatterns.AssemblyInfoInputs.cache
+/home/user/Coding/oop-it-2025/nick-bobeshko/lab-13/StructuralPatterns/obj/Debug/net8.0/StructuralPatterns.AssemblyInfo.cs
+/home/user/Coding/oop-it-2025/nick-bobeshko/lab-13/StructuralPatterns/obj/Debug/net8.0/StructuralPatterns.csproj.CoreCompileInputs.cache
+/home/user/Coding/oop-it-2025/nick-bobeshko/lab-13/StructuralPatterns/obj/Debug/net8.0/StructuralPatterns.sourcelink.json
+/home/user/Coding/oop-it-2025/nick-bobeshko/lab-13/StructuralPatterns/obj/Debug/net8.0/StructuralPatterns.dll
+/home/user/Coding/oop-it-2025/nick-bobeshko/lab-13/StructuralPatterns/obj/Debug/net8.0/refint/StructuralPatterns.dll
+/home/user/Coding/oop-it-2025/nick-bobeshko/lab-13/StructuralPatterns/obj/Debug/net8.0/StructuralPatterns.pdb
+/home/user/Coding/oop-it-2025/nick-bobeshko/lab-13/StructuralPatterns/obj/Debug/net8.0/StructuralPatterns.genruntimeconfig.cache
+/home/user/Coding/oop-it-2025/nick-bobeshko/lab-13/StructuralPatterns/obj/Debug/net8.0/ref/StructuralPatterns.dll
