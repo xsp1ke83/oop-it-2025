@@ -18,9 +18,9 @@
 
     class Car : Vehicle
     {
-        //public virtual void Accelerate() { }
-        //public virtual void Slowdown() { }
-        //public virtual void Turn() { }
+        public virtual void Accelerate() { }
+        public virtual void Slowdown() { }
+        public virtual void Turn() { }
     }
     class Bus : Vehicle
     {

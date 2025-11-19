@@ -13,7 +13,7 @@
         public virtual void Slowdown() { }
     }
 
-    class FreeDirectionalVihicle : Vehicle        // буде дозволяти довільний напрямок руху 
+    class FreeDirectionalVehicle : Vehicle        // буде дозволяти довільний напрямок руху 
     {
         public virtual void Turn() { }   // рух тільки вперед і назад
     }
@@ -22,11 +22,11 @@
     {
     }
 
-    class Car : FreeDirectionalVihicle
+    class Car : FreeDirectionalVehicle
     {
     }
 
-    class Bus : FreeDirectionalVihicle
+    class Bus : FreeDirectionalVehicle
     {
     }
 
